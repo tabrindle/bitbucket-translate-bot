@@ -18,6 +18,10 @@
     "lint": "eslint src",
     "format": "prettier-eslint 'src/**/*.js' --write"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/tabrindle/bitbucket-translate-bot"
+  },
   "dependencies": {
     "glob-fs": "^0.1.7",
     "minimist": "^1.2.0",
