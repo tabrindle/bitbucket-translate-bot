@@ -1,0 +1,30 @@
+{
+  "name": "bitbucket-translate-bot",
+  "version": "1.0.0",
+  "description": "Bot to run on CI server to post missing translatable strings on Bitbucket PRs",
+  "main": "src/cli.js",
+  "bin": {
+    "translate-bot": "src/cli.js"
+  },
+  "keywords": [
+    "bitbucket",
+    "ci",
+    "translate",
+    "PR"
+  ],
+  "author": "tabrindle@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src",
+    "format": "prettier-eslint 'src/**/*.js' --write"
+  },
+  "dependencies": {
+    "glob-fs": "^0.1.7",
+    "minimist": "^1.2.0",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "prettier-eslint-cli": "^4.1.1"
+  }
+}
